@@ -9,8 +9,12 @@
  *  isDone: boolean; -> เป็น boolean true/false เท่านั้น
  */
 
+// 📋 src/libs/Todolist.ts
 interface TaskCardProps {
   id: string;
+  title: string;
+  description: string;
+  isDone: boolean;
 }
 
 export type { TaskCardProps };
